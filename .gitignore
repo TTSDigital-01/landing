@@ -1,0 +1,11 @@
+# Archivo de variables de entorno local (¡MUY IMPORTANTE!)
+.env
+
+# Dependencias (que Vercel generará)
+node_modules
+
+# Logs y archivos de sistema
+*.log
+.DS_Store
+Thumbs.db
+.vercel
