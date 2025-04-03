@@ -1,1 +1,23 @@
+/* Ejemplo para añadir fuente local (al principio del CSS) */
+@font-face {
+  font-family: 'MiFuentePoppins'; /* Dale un nombre */
+  src: url('fonts/poppins-regular.woff2') format('woff2'), /* Ruta a tu archivo de fuente */
+       url('fonts/poppins-regular.woff') format('woff'); /* Opcional: fallback */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Mejora la carga */
+}
 
+@font-face {
+  font-family: 'MiFuentePoppins';
+  src: url('fonts/poppins-bold.woff2') format('woff2'),
+       url('fonts/poppins-bold.woff') format('woff');
+  font-weight: bold; /* O 700 */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Luego usa 'MiFuentePoppins' en tus reglas CSS */
+body {
+  /* font-family: 'MiFuentePoppins', sans-serif; */ /* Descomenta si usas fuentes locales */
+}
