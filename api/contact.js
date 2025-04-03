@@ -11,7 +11,7 @@ if (process.env.NODE_ENV !== 'production') {
 const app = express();
 
 // Configura CORS para permitir solicitudes desde tu dominio de Vercel (o '*' para desarrollo)
-// IMPORTANTE: Reemplaza 'https://tu-dominio.vercel.app' con tu URL real de Vercel en producción
+// IMPORTANTE: Reemplaza 'https://landing-brko3v1i9-marcos-projects-d149c133.vercel.app/' con tu URL real de Vercel en producción
 const corsOptions = {
     origin: process.env.NODE_ENV === 'production'
         ? 'https://tu-proyecto-tts-digital-xxxx.vercel.app' // <-- CAMBIA ESTO a tu URL de Vercel
