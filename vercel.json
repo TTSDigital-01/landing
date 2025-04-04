@@ -4,11 +4,8 @@
     {
       "src": "api/contact.js",
       "use": "@vercel/node"
-    },
-    {
-       "src": "public/**",
-       "use": "@vercel/static"
     }
+    // La parte de public/** fue eliminada
   ],
   "routes": [
     {
@@ -17,7 +14,7 @@
     },
      {
       "src": "/(.*)",
-      "dest": "/public/$1"
+      "dest": "/public/index_v1.html" // Apunta directamente al HTML
     }
   ]
 }
