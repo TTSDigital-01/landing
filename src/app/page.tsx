@@ -2,7 +2,6 @@
 
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import ColoresPrueba from "@/components/ColoresPrueba";
 import PorqueDigitalizar from "@/components/PorqueDigitalizar";
 import PrimerCTA from "@/components/PrimerCTA";
 import NuestrosServicios from "@/components/NuestrosServicios";
