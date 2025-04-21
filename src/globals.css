@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Restauramos el fondo blanco por defecto y solo aplicamos la tipografía global */
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
