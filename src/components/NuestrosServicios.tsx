@@ -10,10 +10,10 @@ export default function NuestrosServicios() {
       {/* Servicio 1 */}
       <div className="bg-gray-100 py-12 px-6 mb-8 rounded-2xl shadow-md">
         <h3 className="text-2xl font-semibold text-center text-[#0087D1] mb-4">
-          Conéctate con el Mundo
+          Atrae a Tus Clientes Ideales
         </h3>
         <p className="text-center max-w-3xl mx-auto text-[#4A4A4A] mb-6">
-          Vende tus productos o servicios online 24/7. Expande tu mercado más allá de tu localidad. Gestiona tus ventas de forma sencilla.
+          Conecta con quienes realmente valoran tu trabajo. Usa herramientas digitales para llegar a tu audiencia perfecta, aumentar tus ventas y convertir cada interacción en una experiencia significativa.
         </p>
         <Image
           src="/SERVICIO1.png"
@@ -28,10 +28,10 @@ export default function NuestrosServicios() {
       {/* Servicio 2 */}
       <div id="servicios2" className="bg-gray-100 py-12 px-6 mb-8 rounded-2xl shadow-md">
         <h3 className="text-2xl font-semibold text-center text-[#0087D1] mb-4">
-          Atrae a tus Clientes Ideales
+          Conquista a Tus Clientes con Experiencias Inolvidables
         </h3>
         <p className="text-center max-w-3xl mx-auto text-[#4A4A4A] mb-6">
-          Aumenta tu visibilidad en internet. Crea una comunidad fiel alrededor de tu marca. Convierte visitantes en clientes leales.
+          Fideliza a tus clientes con recompensas que enamoran, un servicio excepcional y momentos memorables. Aprovecha la tecnología para anticipar necesidades, resolver inquietudes al instante y convertir cada contacto en una razón para que regresen una y otra vez.
         </p>
         <Image
           src="/SERVICIO2.png"
@@ -46,10 +46,10 @@ export default function NuestrosServicios() {
       {/* Servicio 3 */}
       <div id="servicios3" className="bg-gray-100 py-12 px-6 mb-8 rounded-2xl shadow-md">
         <h3 className="text-2xl font-semibold text-center text-[#0087D1] mb-4">
-          Trabaja de Forma Productiva
+          Optimiza Tus Operaciones con Tecnología Inteligente
         </h3>
         <p className="text-center max-w-3xl mx-auto text-[#4A4A4A] mb-6">
-          Simplifica tareas repetitivas y ahorra tiempo. Reduce errores y mejora la eficiencia. Enfócate en el crecimiento estratégico.
+          Simplifica procesos, reduce costos y ahorra tiempo con soluciones digitales diseñadas para hacer tu negocio más ágil. Automatiza tareas repetitivas, centraliza información y enfócate en lo que realmente importa: hacer crecer tu empresa.
         </p>
         <Image
           src="/SERVICIO3.png"
