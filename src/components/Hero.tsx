@@ -41,10 +41,10 @@ export default function Hero() {
         </p>
         <div className="space-y-3 mb-6">
           <a href="#servicios" className="block bg-[#1E3A8A] text-[#FFD700] py-3 rounded-lg hover:bg-[#0087D1] transition">
-            Conéctate con el Mundo
+            Atrae a Tus Clientes Ideales
           </a>
           <a href="#servicios2" className="block bg-[#1E3A8A] text-[#FFD700] py-3 rounded-lg hover:bg-[#0087D1] transition">
-            Atrae a tus Clientes Ideales
+            Conquista a Tus Clientes con Experiencias Inolvidables
           </a>
           <a href="#servicios3" className="block bg-[#1E3A8A] text-[#FFD700] py-3 rounded-lg hover:bg-[#0087D1] transition">
             Trabaja de Forma Productiva
