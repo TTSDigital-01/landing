@@ -6,15 +6,15 @@ export default function SegundoCTA() {
       <div className="md:w-1/2 text-center md:text-left">
         {/* TÍTULO en Azul Oscuro */}
         <h2 className="text-3xl md:text-4xl font-bold text-[#1E3A8A] mb-6">
-          ¿Estás listo para comenzar tu transformación digital?
+          ¿Cuál es el nivel de madurez digital de tu empresa?
         </h2>
 
         {/* BOTÓN con fondo Oro y texto Azul Oscuro */}
         <a
-          href="#contacto"
+          href="/madurez-digital"
           className="inline-block bg-[#FFD700] text-[#1E3A8A] font-semibold py-3 px-6 rounded-2xl shadow-lg hover:bg-yellow-300 transition"
         >
-          ¡Contáctanos ahora!
+          ¡Conócelo ahora!
         </a>
       </div>
 
