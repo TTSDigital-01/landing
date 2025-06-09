@@ -20,7 +20,7 @@ export async function POST(request) {
       return NextResponse.json({ success: true, duplicate: true, message: 'Este informe ya fue procesado' });
     }
 
-    const SHEETS_WEBHOOK_URL = process.env.SHEETS_WEBHOOK_URL;
+    const SHEETS_WEBHOOK_URL = process.env.SHEETS_WEBHOOK_URL_2;
 
     if (!SHEETS_WEBHOOK_URL) {
       console.error('❌ SHEETS_WEBHOOK_URL no configurada');
